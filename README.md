@@ -7,3 +7,14 @@
 
 ## How does it work?
 - [Demo video](https://www.youtube.com/watch?v=y9J4cQ_F8Og)
+
+## How to set up?
+- Import akountant.zip to your Google DialogFlow account. This will create all the NLP frontend for this project.
+- Create AWS lambda
+- Create Postgresql instance and change the credentials in database.ini
+- Clone the repository
+```bash
+pip install requirements.txt
+```
+- push the deplpoyment package to AWS lambda
+- Do not forget to give AWS lambda's endpoint to DialogFlow
