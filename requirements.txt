@@ -1,0 +1,10 @@
+json
+datetime
+base64
+jwt
+pyjwt[crypto]
+psycopg2-binary
+psycopg2
+config
+dateutil
+configparser
